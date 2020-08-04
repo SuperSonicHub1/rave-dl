@@ -6,7 +6,7 @@ Install with `python3 -m pip install rave-dl` or `poetry add rave-dl`.
 ## Example Usage
 ### Application Programming Interface
 ```python
-from rave-dl import RaveDJ
+from rave_dl import RaveDJ
 
 rave = RaveDJ('https://rave.dj/sZJr6b9MG6vpPA')
 rave.scraper(filetype="mp3+mp4", metadata=True, output="hello_world")
