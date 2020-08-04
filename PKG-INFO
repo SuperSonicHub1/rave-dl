@@ -1,3 +1,33 @@
+Metadata-Version: 2.1
+Name: rave-dl
+Version: 1.0
+Summary: Rips video and audio (with metadata) from music mixing website RaveDJ.
+Home-page: https://github.com/SuperSonicHub1/rave-dl
+License: Unlicense
+Keywords: ravedl,downloader,rave,music
+Author: Kyle Williams
+Author-email: kyle.anthony.williams2@gmail.com
+Requires-Python: >=3.6,<4
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: Other/Proprietary License
+Classifier: License :: Public Domain
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Multimedia
+Provides-Extra: metadata
+Requires-Dist: regex (>=2020.7.14,<2021.0.0)
+Requires-Dist: requests (>=2.24.0,<3.0.0)
+Project-URL: Repository, https://github.com/SuperSonicHub1/rave-dl
+Description-Content-Type: text/markdown
+
 # Rave-DL
 Rips video and audio (with metadata) from music mixing website [RaveDJ](https://rave.dj/). Support the creators of the website on [Patreon](https://www.patreon.com/RaveDJ/). <br>
 

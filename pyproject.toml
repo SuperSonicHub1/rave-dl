@@ -1,0 +1,40 @@
+[tool.poetry]
+name = "rave-dl"
+version = "1.0"
+description = "Rips video and audio (with metadata) from music mixing website RaveDJ."
+authors = ["Kyle Williams <kyle.anthony.williams2@gmail.com>"]
+license = "The Unlicense"
+readme = "README.md"
+homepage = "https://github.com/SuperSonicHub1/rave-dl"
+repository = "https://github.com/SuperSonicHub1/rave-dl"
+keywords = ['ravedl', 'downloader', 'rave', 'music']
+classifiers = [
+    'Development Status :: 5 - Production/Stable',
+    'Environment :: Console',
+    'Intended Audience :: End Users/Desktop',
+    'License :: Public Domain',
+    'Natural Language :: English',
+    'Operating System :: OS Independent',
+    'Programming Language :: Python :: 3 :: Only',
+    'Programming Language :: Python :: 3.6',
+    'Programming Language :: Python :: 3.7',
+    'Programming Language :: Python :: 3.8',
+    'Topic :: Multimedia'
+]
+include = ['README.rst']
+
+[tool.poetry.dependencies]
+python = ">=3.6,<4"
+requests = "^2.24.0"
+regex = "^2020.7.14"
+
+[tool.poetry.extras]
+metadata = ["eyeD3"]
+
+[tool.poetry.dev-dependencies]
+black = { version = "^19.10b0", allow-prereleases = true }
+pylint = "^2.5.3"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
