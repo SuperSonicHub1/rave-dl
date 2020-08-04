@@ -31,7 +31,7 @@ Args:
 * output (str, optional): Folder files are downloaded to. Defaults to "output".
 * bar (bool, optional): Shows download progress in the form of a bar. Defaults to False.
 ## CLI
-Invoke it with `python3 -m rave-dl` or `python3 rave-dl.py`.
+Invoke it with `python3 -m rave_dl` or `python3 rave_dl.py`.
 ```bash
 usage: rave-dl [-h] [-m] [-f FILETYPE] [-o OUTPUT] [-nb] [-v] URL
 
