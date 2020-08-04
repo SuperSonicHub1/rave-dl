@@ -22,13 +22,14 @@ Attributes:
 
 Args:
 * url (str): URL of RaveDJ video
-### def scraper(filetype="mp4", metadata=False, output="output")
+### def scraper(filetype="mp4", metadata=False, output="output", bar=False)
 Download music videos from RaveDJ.
 
 Args:
 * filetype (str, optional): Choose to download MP3s (mp3), MP4s (mp4), or both (mp3+mp4). Defaults to "mp4".
 * metadata (bool, optional): Adds metadata (title, artist, album art) to MP3s. Defaults to False.
 * output (str, optional): Folder files are downloaded to. Defaults to "output".
+* bar (bool, optional): Shows download progress in the form of a bar. Defaults to False.
 ## CLI
 Invoke it with `python3 -m rave-dl` or `python3 rave-dl.py`.
 ```bash
