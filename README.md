@@ -13,7 +13,7 @@ rave.scraper(filetype="mp3+mp4", metadata=True, output="hello_world")
 ```
 ### Command Line Interface
 ```bash
-python3 -m rave-dl "https://rave.dj/sZJr6b9MG6vpPA" -m -f mp3+mp4 -o hello_world
+python3 -m rave_dl "https://rave.dj/sZJr6b9MG6vpPA" -m -f mp3+mp4 -o hello_world
 ```
 ## API
 ### class RaveDJ
